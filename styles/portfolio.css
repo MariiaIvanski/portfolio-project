@@ -1,13 +1,14 @@
 :root {
   --branding-color: #b999ea;
   --secondary-color: #2a2a3b;
+  --base-text-color: #f7f8f7;
   --heading-font-family: "Spartan", sans-serif;
   --default-font-family: "Source Code Pro", monospace;
 }
 
 body {
   font-family: var(--default-font-family);
-  background: var(--secondary-color);
+  background: black;
 }
 
 h1,
@@ -23,9 +24,16 @@ h1 {
   font-size: 96px;
 }
 
+h2 {
+  font-size: 64px;
+}
+
 p {
   font-family: "Source Code Pro", monospace;
   font-weight: normal;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--base-text-color);
 }
 .hero {
   background: var(--secondary-color);
@@ -37,7 +45,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #f7f8f7;
+  color: var(--base-text-color);
 }
 
 .hero h2 {
@@ -54,6 +62,15 @@ p {
   border-radius: 4px;
   color: #2a2a3b;
   font-family: var(--default-font-family);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
