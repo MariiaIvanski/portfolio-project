@@ -90,4 +90,10 @@ img {
     padding: 0;
     text-align: center;
   }
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 48px;
+  }
 }
