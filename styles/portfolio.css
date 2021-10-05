@@ -81,6 +81,10 @@ img {
   padding: 15px 30px;
 }
 
+.btn-branding-outline:hover {
+  color: #b999ea96;
+}
+
 .project-description {
   padding: 0 30px;
 }
