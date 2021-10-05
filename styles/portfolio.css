@@ -86,14 +86,21 @@ img {
 }
 
 @media (max-width: 900px) {
+  h1 {
+    font-size: 52px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 36px;
+  }
+
+  .hero {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 80px 20px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
-  }
-  h1 {
-    font-size: 72px;
-  }
-  h2 {
-    font-size: 48px;
   }
 }
