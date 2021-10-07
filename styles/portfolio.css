@@ -154,6 +154,7 @@ i {
 
   .content-container {
     background-image: none;
+    padding: 80px 20px;
   }
 
   .project-description {
