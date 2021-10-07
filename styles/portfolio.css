@@ -2,6 +2,7 @@
   --branding-color: #b999ea;
   --secondary-color: #2a2a3b;
   --base-text-color: #f7f8f7;
+  --additional-text-color: #5bf57f;
   --heading-font-family: "Spartan", sans-serif;
   --default-font-family: "Source Code Pro", monospace;
 }
@@ -40,6 +41,12 @@ img {
   border-radius: 10px;
 }
 
+i {
+  display: block;
+  color: var(--additional-text-color);
+  font-size: 36px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -59,7 +66,7 @@ img {
   font-style: italic;
   line-height: 1.5;
   font-size: 24px;
-  color: #5bf57f;
+  color: var(--additional-text-color);
 }
 
 .content-container {
@@ -76,7 +83,7 @@ img {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-style: italic;
-  color: #5bf57f;
+  color: var(--additional-text-color);
 }
 
 .content h3 {
