@@ -1,5 +1,6 @@
 :root {
   --branding-color: #b999ea;
+  --hover-branding-color: #b999ea96;
   --secondary-color: #2a2a3b;
   --base-text-color: #f7f8f7;
   --additional-text-color: #5bf57f;
@@ -111,6 +112,11 @@ i {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
+}
+
+.btn-branding:hover {
+  background: var(--hover-branding-color);
 }
 
 .btn-branding-outline {
@@ -120,14 +126,44 @@ i {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
 }
 
 .btn-branding-outline:hover {
-  color: #b999ea96;
+  color: var(--hover-branding-color);
 }
 
 .project-description {
   padding: 0 30px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+  border-left: 1px solid var(--hover-branding-color);
+  padding-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li a.active {
+  color: var(--hover-branding-color);
 }
 
 @media (max-width: 900px) {
@@ -141,10 +177,27 @@ i {
     font-size: 36px;
   }
 
+  nav i {
+    font-size: 26px;
+  }
+
+  nav li {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  nav a {
+    font-size: 14px;
+  }
+
   .hero {
     background: var(--secondary-color);
     text-align: center;
     padding: 80px 20px;
+  }
+
+  .hero p {
+    font-size: 28px;
   }
 
   .content {
