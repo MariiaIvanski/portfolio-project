@@ -48,6 +48,16 @@ i {
   font-size: 36px;
 }
 
+a {
+  text-decoration: none;
+  color: #f2f79a;
+  transition: all 100ms ease-in-out;
+}
+
+a:hover {
+  color: #f2f79ab0;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -169,12 +179,12 @@ nav li a.active {
 footer .email-link {
   text-decoration: none;
   text-align: center;
-  color: var(--branding-color);
+  color: #f2f79a;
   font-size: 24px;
 }
 
 footer .email-link:hover {
-  color: var(--hover-branding-color);
+  color: #f2f79ab0;
 }
 
 footer i {
