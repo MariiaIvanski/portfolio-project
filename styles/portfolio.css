@@ -30,6 +30,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-family: "Source Code Pro", monospace;
   font-weight: normal;
@@ -176,6 +180,24 @@ nav li a.active {
   color: var(--hover-branding-color);
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: #1c1a24;
+  padding: 30px 120px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+footer .contact-box p {
+  font-size: 18px;
+  font-weight: normal;
+  color: var(--base-text-color);
+  margin: 0;
+}
+
 footer .email-link {
   text-decoration: none;
   text-align: center;
@@ -190,14 +212,15 @@ footer .email-link:hover {
 footer i {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
-  border-radius: 4px;
+  border-radius: 5px;
   padding: 15px 15px;
   margin: 10px;
   transition: all 100ms ease-in-out;
 }
 
 footer i:hover {
-  color: var(--hover-branding-color);
+  background: var(--branding-color);
+  color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
@@ -247,5 +270,17 @@ footer i:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  footer .contact-box {
+    padding: 25px;
+  }
+
+  footer .contact-box p {
+    font-size: 14px;
+  }
+
+  footer .email-link {
+    font-size: 18px;
   }
 }
