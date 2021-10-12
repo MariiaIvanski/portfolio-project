@@ -143,8 +143,10 @@ a:hover {
   transition: all 100ms ease-in-out;
 }
 
-.btn-branding-outline:hover {
-  color: var(--hover-branding-color);
+.btn-branding-outline:hover,
+footer i:hover {
+  background: var(--branding-color);
+  color: var(--secondary-color);
 }
 
 .project-description {
@@ -217,11 +219,6 @@ footer i {
   padding: 15px 15px;
   margin: 10px;
   transition: all 100ms ease-in-out;
-}
-
-footer i:hover {
-  background: var(--branding-color);
-  color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
