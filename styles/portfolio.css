@@ -4,13 +4,14 @@
   --secondary-color: #2a2a3b;
   --base-text-color: #f7f8f7;
   --additional-text-color: #5bf57f;
+  --major-background-color: #1c1a24;
   --heading-font-family: "Spartan", sans-serif;
   --default-font-family: "Source Code Pro", monospace;
 }
 
 body {
   font-family: var(--default-font-family);
-  background: #1c1a24;
+  background: var(--major-background-color);
 }
 
 h1,
@@ -146,7 +147,7 @@ a:hover {
 .btn-branding-outline:hover,
 footer i:hover {
   background: var(--branding-color);
-  color: var(--secondary-color);
+  color: var(--major-background-color);
 }
 
 .project-description {
