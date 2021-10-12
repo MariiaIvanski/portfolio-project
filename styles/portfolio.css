@@ -68,7 +68,7 @@ a:hover {
   padding: 80px 20px;
 }
 
-.hero p {
+.hero #hello-top {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
@@ -190,13 +190,12 @@ footer .contact-box {
   background: #1c1a24;
   padding: 30px 160px;
   border-radius: 10px;
-  box-shadow: 0px 0px 40px 5px rgba(254, 254, 254, 0.1);
+  box-shadow: 0px 0px 40px 5px rgba(254, 254, 254, 0.05);
   text-align: left;
 }
 
 footer .contact-box p {
   font-size: 18px;
-  font-weight: normal;
   color: var(--base-text-color);
   margin: 0;
 }
@@ -250,7 +249,7 @@ footer i {
     text-align: center;
   }
 
-  .hero p {
+  .hero #hello-top {
     font-size: 28px;
   }
 
@@ -269,15 +268,11 @@ footer i {
     text-align: center;
   }
 
-  footer .contact-box {
-    padding: 25px;
-  }
-
-  footer .contact-box p {
-    font-size: 14px;
-  }
-
   footer .email-link {
     font-size: 18px;
+  }
+
+  footer p {
+    font-size: 14px;
   }
 }
