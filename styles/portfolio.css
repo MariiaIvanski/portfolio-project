@@ -86,7 +86,7 @@ a:hover {
 }
 
 .content-container {
-  padding: 60px 20px;
+  padding: 40px 20px 20px;
   background-image: url("/images/circle.svg");
   background-size: 100% 100%;
 }
@@ -151,7 +151,7 @@ footer i:hover {
 }
 
 .project-description {
-  padding: 0 30px;
+  padding: 120px 30px;
 }
 
 nav {
@@ -184,7 +184,7 @@ nav li a.active {
 }
 
 footer {
-  margin: 60px 0;
+  margin: 20px 0 60px;
 }
 
 footer .contact-box {
@@ -260,12 +260,16 @@ footer i {
 
   .content-container {
     background-image: none;
-    padding: 80px 20px;
+    padding: 40px 20px;
   }
 
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-photo {
+    margin-top: 40px;
   }
 
   footer .email-link {
