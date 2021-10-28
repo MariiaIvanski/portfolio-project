@@ -108,6 +108,10 @@ hr {
   color: var(--additional-text-color);
 }
 
+.content {
+  margin: 30px;
+}
+
 .content h3 {
   font-size: 24px;
   line-height: 1.5;
@@ -117,10 +121,6 @@ hr {
 
 .content p {
   font-size: 14px;
-}
-
-.content {
-  margin: 30px;
 }
 
 .my-cv {
@@ -133,6 +133,10 @@ hr {
 
 .my-cv .content {
   max-width: 960px;
+}
+
+.my-cv h4 {
+  color: var(--branding-color);
 }
 
 .btn-branding {
@@ -167,7 +171,7 @@ footer i:hover {
 }
 
 .project-description {
-  padding: 120px 30px;
+  padding: 20px 30px;
 }
 
 nav {
