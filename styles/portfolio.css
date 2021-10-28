@@ -63,6 +63,10 @@ a:hover {
   color: #f2f79ab0;
 }
 
+hr {
+  color: #73b0c4;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -117,6 +121,12 @@ a:hover {
 
 .content {
   margin: 30px;
+}
+
+.my-cv {
+  background: var(--secondary-color);
+  padding: 80px 20px;
+  margin: 0 auto;
 }
 
 .btn-branding {
@@ -244,7 +254,8 @@ footer i {
     font-size: 14px;
   }
 
-  .hero {
+  .hero,
+  .my-cv {
     background: var(--secondary-color);
     text-align: center;
   }
