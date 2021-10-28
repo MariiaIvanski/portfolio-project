@@ -126,7 +126,13 @@ hr {
 .my-cv {
   background: var(--secondary-color);
   padding: 80px 20px;
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-cv .content {
+  max-width: 960px;
 }
 
 .btn-branding {
