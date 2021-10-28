@@ -52,10 +52,35 @@
     </div>
     <div class="my-cv">
       <div class="content container">
-        <h4 class="">Curriculum Vitae</h4>
+        <div class="row mb-3 justify-content-between">
+          <div class="col-md-4">
+            <h4>Curriculum Vitae</h4>
+          </div>
+          <div class="col-md-3 d-none d-md-flex">
+            <button onClick="window.print()" class="btn btn-branding-outline">
+              Print CV
+            </button>
+          </div>
+        </div>
+
         <h1>Mariia Ivanski</h1>
         <h2>Aspiring Junior Front-end Developer</h2>
+
         <div class="row mt-5 d-flex align-items-stretch">
+          <div class="col-md-4"><h3>Contact Details</h3></div>
+          <div class="col-md-8">
+            <hr size="6" />
+            <p>
+              <i class="fas fa-envelope-square"></i>
+              <a href="mailto:mariia.ivanski@gmail.com"
+                >mariia.ivanski@gmail.com</a
+              >
+              <br /><i class="fas fa-phone-square-alt"></i> +972584186509
+            </p>
+          </div>
+        </div>
+
+        <div class="row d-flex align-items-stretch">
           <div class="col-md-4"><h3>Skills and Technologies</h3></div>
           <div class="col-md-8">
             <hr size="6" />
@@ -74,7 +99,9 @@
             <hr size="6" />
             <p class="mb-4">
               <strong>SheCodes React / React Development</strong><br />
-              October 2021 - PRESENT (due to finish in November 2021),
+              <em class="text-muted">
+                October 2021 - PRESENT (due to finish in November 2021),</em
+              >
               <a href="https://www.shecodes.io/" target="_blank">shecodes.io</a
               ><br />
               Final Projects: Weather Project, Dictionary Project (yet to be
@@ -84,7 +111,7 @@
             <p class="mb-4">
               <strong>SheCodes Responsive / Responsive Web Development</strong
               ><br />
-              September 2021 - October 2021,
+              <em class="text-muted">September 2021 - October 2021,</em>
               <a href="https://www.shecodes.io/" target="_blank">shecodes.io</a
               ><br />
               Final Project:
@@ -98,7 +125,7 @@
 
             <p class="mb-4">
               <strong>SheCodes Plus / Front End Development</strong><br />
-              July 2021 - September 2021,
+              <em class="text-muted">July 2021 - September 2021,</em>
               <a href="https://www.shecodes.io/" target="_blank">shecodes.io</a
               ><br />
               Final Project:
@@ -113,7 +140,7 @@
 
             <p>
               <strong>SheCodes Basic/ Introduction to Coding</strong><br />
-              June 2021 - July 2021,
+              <em class="text-muted">June 2021 - July 2021,</em>
               <a href="https://www.shecodes.io/" target="_blank">shecodes.io</a
               ><br />
               Final Project:
@@ -133,14 +160,18 @@
             <p class="mb-4">
               <strong>Odessa National “I.I. Mechnikov” University / M.A.</strong
               ><br />
-              September 2011 - July 2012, Odessa, Ukraine<br />
+              <em class="text-muted"
+                >September 2011 - July 2012, Odessa, Ukraine</em
+              ><br />
               Romance and Germanic Philology (English and German language and
               literature).
             </p>
             <p>
               <strong>Odessa National “I.I. Mechnikov” University / B.A.</strong
               ><br />
-              September 2007 - July 2011, Odessa, Ukraine<br />
+              <em class="text-muted"
+                >September 2007 - July 2011, Odessa, Ukraine</em
+              ><br />
               Romance and Germanic Philology (English and German language and
               literature).
             </p>
@@ -165,6 +196,11 @@
               <strong>Hebrew</strong> B1
             </p>
           </div>
+        </div>
+        <div class="mt-4 d-flex justify-content-center d-lg-none d-xl-none">
+          <button onClick="window.print()" class="btn btn-branding-outline">
+            Print CV
+          </button>
         </div>
       </div>
     </div>
